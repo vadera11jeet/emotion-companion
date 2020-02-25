@@ -17,7 +17,7 @@ if __name__ == '__main__':
 		break
 
 
-
+	emo = "happy"
 	print(emo)
 
 	if emo == 'happy':
@@ -91,7 +91,7 @@ if __name__ == '__main__':
 		ta.speak("sir,can i play video for you ???")
 		answer = ta.take_command()
 		if answer == "yes":
-			webbrowser.open("https://www.youtube.com/watch?v=gq5acI30-Fk")
+			webbrowser.open("https://www.youtube.com/watch?v=af9qXLrPadA")
 		else:
 			ta.task()
 
@@ -103,4 +103,7 @@ if __name__ == '__main__':
 		ta.speak("")
 
 	else:
-		ta.speak('you look so disgust')
+		try:
+			ta.speak('you look so disgust')
+		except:
+			pass

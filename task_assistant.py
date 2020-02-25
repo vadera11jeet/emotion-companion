@@ -45,7 +45,7 @@ def take_command():
     try:
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-in") # here the "l" of "language" is must be in lower case 
-        print("user said",query)
+        print("user said", query)
 
     except Exception as e:
 
